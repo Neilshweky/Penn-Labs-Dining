@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2884030C1F6ECB2900027A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884030B1F6ECB2900027A5A /* main.m */; };
+		2884030F1F6ECB2900027A5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884030E1F6ECB2900027A5A /* AppDelegate.m */; };
+		288403121F6ECB2900027A5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288403111F6ECB2900027A5A /* ViewController.m */; };
+		288403151F6ECB2900027A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288403131F6ECB2900027A5A /* Main.storyboard */; };
+		288403171F6ECB2900027A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288403161F6ECB2900027A5A /* Assets.xcassets */; };
+		2884031A1F6ECB2900027A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288403181F6ECB2900027A5A /* LaunchScreen.storyboard */; };
+		288403251F6ECB2A00027A5A /* Penn_Labs_DiningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 288403241F6ECB2A00027A5A /* Penn_Labs_DiningTests.m */; };
+		288403301F6ECB2A00027A5A /* Penn_Labs_DiningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884032F1F6ECB2A00027A5A /* Penn_Labs_DiningUITests.m */; };
+		288403451F6ECC4F00027A5A /* DiningArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 288403441F6ECC4F00027A5A /* DiningArea.m */; };
+		2884034B1F6ECDD500027A5A /* DiningCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884034A1F6ECDD500027A5A /* DiningCell.m */; };
+		2884035A1F6EDCED00027A5A /* 1920Commons.png in Resources */ = {isa = PBXBuildFile; fileRef = 2884034C1F6EDCED00027A5A /* 1920Commons.png */; };
+		2884035B1F6EDCEE00027A5A /* beefsteak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2884034D1F6EDCED00027A5A /* beefsteak.jpeg */; };
+		2884035C1F6EDCEE00027A5A /* gourmetgrocer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2884034E1F6EDCED00027A5A /* gourmetgrocer.jpg */; };
+		2884035D1F6EDCEE00027A5A /* Hill House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2884034F1F6EDCED00027A5A /* Hill House.jpg */; };
+		2884035E1F6EDCEE00027A5A /* hillel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 288403501F6EDCED00027A5A /* hillel.jpg */; };
+		2884035F1F6EDCEE00027A5A /* houston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 288403511F6EDCED00027A5A /* houston.jpg */; };
+		288403601F6EDCEE00027A5A /* kceh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 288403521F6EDCED00027A5A /* kceh.jpg */; };
+		288403611F6EDCEE00027A5A /* marks.png in Resources */ = {isa = PBXBuildFile; fileRef = 288403531F6EDCED00027A5A /* marks.png */; };
+		288403621F6EDCEE00027A5A /* mcclelland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 288403541F6EDCED00027A5A /* mcclelland.jpg */; };
+		288403631F6EDCEE00027A5A /* nch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 288403551F6EDCED00027A5A /* nch.jpg */; };
+		288403641F6EDCEE00027A5A /* Penn.JoesCafe-Int5.72W.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 288403561F6EDCED00027A5A /* Penn.JoesCafe-Int5.72W.jpg */; };
+		288403651F6EDCEE00027A5A /* quad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 288403571F6EDCED00027A5A /* quad.jpg */; };
+		288403661F6EDCEE00027A5A /* starbucks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 288403581F6EDCED00027A5A /* starbucks.jpg */; };
+		288403671F6EDCEE00027A5A /* tortas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 288403591F6EDCED00027A5A /* tortas.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		288403211F6ECB2A00027A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288402FF1F6ECB2900027A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288403061F6ECB2900027A5A;
+			remoteInfo = "Penn Labs Dining";
+		};
+		2884032C1F6ECB2A00027A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288402FF1F6ECB2900027A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288403061F6ECB2900027A5A;
+			remoteInfo = "Penn Labs Dining";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		288403071F6ECB2900027A5A /* Penn Labs Dining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn Labs Dining.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2884030B1F6ECB2900027A5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2884030D1F6ECB2900027A5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2884030E1F6ECB2900027A5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		288403101F6ECB2900027A5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		288403111F6ECB2900027A5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		288403141F6ECB2900027A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		288403161F6ECB2900027A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		288403191F6ECB2900027A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2884031B1F6ECB2900027A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288403201F6ECB2A00027A5A /* Penn Labs DiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Labs DiningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		288403241F6ECB2A00027A5A /* Penn_Labs_DiningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Penn_Labs_DiningTests.m; sourceTree = "<group>"; };
+		288403261F6ECB2A00027A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2884032B1F6ECB2A00027A5A /* Penn Labs DiningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Labs DiningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2884032F1F6ECB2A00027A5A /* Penn_Labs_DiningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Penn_Labs_DiningUITests.m; sourceTree = "<group>"; };
+		288403311F6ECB2A00027A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288403431F6ECC4F00027A5A /* DiningArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningArea.h; sourceTree = "<group>"; };
+		288403441F6ECC4F00027A5A /* DiningArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningArea.m; sourceTree = "<group>"; };
+		288403491F6ECDD500027A5A /* DiningCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningCell.h; sourceTree = "<group>"; };
+		2884034A1F6ECDD500027A5A /* DiningCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningCell.m; sourceTree = "<group>"; };
+		2884034C1F6EDCED00027A5A /* 1920Commons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1920Commons.png; sourceTree = "<group>"; };
+		2884034D1F6EDCED00027A5A /* beefsteak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beefsteak.jpeg; sourceTree = "<group>"; };
+		2884034E1F6EDCED00027A5A /* gourmetgrocer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gourmetgrocer.jpg; sourceTree = "<group>"; };
+		2884034F1F6EDCED00027A5A /* Hill House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hill House.jpg"; sourceTree = "<group>"; };
+		288403501F6EDCED00027A5A /* hillel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hillel.jpg; sourceTree = "<group>"; };
+		288403511F6EDCED00027A5A /* houston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = houston.jpg; sourceTree = "<group>"; };
+		288403521F6EDCED00027A5A /* kceh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kceh.jpg; sourceTree = "<group>"; };
+		288403531F6EDCED00027A5A /* marks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marks.png; sourceTree = "<group>"; };
+		288403541F6EDCED00027A5A /* mcclelland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mcclelland.jpg; sourceTree = "<group>"; };
+		288403551F6EDCED00027A5A /* nch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nch.jpg; sourceTree = "<group>"; };
+		288403561F6EDCED00027A5A /* Penn.JoesCafe-Int5.72W.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Penn.JoesCafe-Int5.72W.jpg"; sourceTree = "<group>"; };
+		288403571F6EDCED00027A5A /* quad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quad.jpg; sourceTree = "<group>"; };
+		288403581F6EDCED00027A5A /* starbucks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks.jpg; sourceTree = "<group>"; };
+		288403591F6EDCED00027A5A /* tortas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tortas.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288403041F6ECB2900027A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2884031D1F6ECB2A00027A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288403281F6ECB2A00027A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288402FE1F6ECB2900027A5A = {
+			isa = PBXGroup;
+			children = (
+				288403091F6ECB2900027A5A /* Penn Labs Dining */,
+				288403231F6ECB2A00027A5A /* Penn Labs DiningTests */,
+				2884032E1F6ECB2A00027A5A /* Penn Labs DiningUITests */,
+				288403081F6ECB2900027A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		288403081F6ECB2900027A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288403071F6ECB2900027A5A /* Penn Labs Dining.app */,
+				288403201F6ECB2A00027A5A /* Penn Labs DiningTests.xctest */,
+				2884032B1F6ECB2A00027A5A /* Penn Labs DiningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288403091F6ECB2900027A5A /* Penn Labs Dining */ = {
+			isa = PBXGroup;
+			children = (
+				2884030D1F6ECB2900027A5A /* AppDelegate.h */,
+				2884030E1F6ECB2900027A5A /* AppDelegate.m */,
+				288403101F6ECB2900027A5A /* ViewController.h */,
+				288403111F6ECB2900027A5A /* ViewController.m */,
+				288403131F6ECB2900027A5A /* Main.storyboard */,
+				288403161F6ECB2900027A5A /* Assets.xcassets */,
+				288403181F6ECB2900027A5A /* LaunchScreen.storyboard */,
+				2884031B1F6ECB2900027A5A /* Info.plist */,
+				288403431F6ECC4F00027A5A /* DiningArea.h */,
+				288403441F6ECC4F00027A5A /* DiningArea.m */,
+				288403491F6ECDD500027A5A /* DiningCell.h */,
+				2884034A1F6ECDD500027A5A /* DiningCell.m */,
+				288403681F6EDCF600027A5A /* Dining Images */,
+				2884030A1F6ECB2900027A5A /* Supporting Files */,
+			);
+			path = "Penn Labs Dining";
+			sourceTree = "<group>";
+		};
+		2884030A1F6ECB2900027A5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2884030B1F6ECB2900027A5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		288403231F6ECB2A00027A5A /* Penn Labs DiningTests */ = {
+			isa = PBXGroup;
+			children = (
+				288403241F6ECB2A00027A5A /* Penn_Labs_DiningTests.m */,
+				288403261F6ECB2A00027A5A /* Info.plist */,
+			);
+			path = "Penn Labs DiningTests";
+			sourceTree = "<group>";
+		};
+		2884032E1F6ECB2A00027A5A /* Penn Labs DiningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2884032F1F6ECB2A00027A5A /* Penn_Labs_DiningUITests.m */,
+				288403311F6ECB2A00027A5A /* Info.plist */,
+			);
+			path = "Penn Labs DiningUITests";
+			sourceTree = "<group>";
+		};
+		288403681F6EDCF600027A5A /* Dining Images */ = {
+			isa = PBXGroup;
+			children = (
+				2884034C1F6EDCED00027A5A /* 1920Commons.png */,
+				2884034D1F6EDCED00027A5A /* beefsteak.jpeg */,
+				2884034E1F6EDCED00027A5A /* gourmetgrocer.jpg */,
+				2884034F1F6EDCED00027A5A /* Hill House.jpg */,
+				288403501F6EDCED00027A5A /* hillel.jpg */,
+				288403511F6EDCED00027A5A /* houston.jpg */,
+				288403521F6EDCED00027A5A /* kceh.jpg */,
+				288403531F6EDCED00027A5A /* marks.png */,
+				288403541F6EDCED00027A5A /* mcclelland.jpg */,
+				288403551F6EDCED00027A5A /* nch.jpg */,
+				288403561F6EDCED00027A5A /* Penn.JoesCafe-Int5.72W.jpg */,
+				288403571F6EDCED00027A5A /* quad.jpg */,
+				288403581F6EDCED00027A5A /* starbucks.jpg */,
+				288403591F6EDCED00027A5A /* tortas.jpg */,
+			);
+			name = "Dining Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288403061F6ECB2900027A5A /* Penn Labs Dining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288403341F6ECB2A00027A5A /* Build configuration list for PBXNativeTarget "Penn Labs Dining" */;
+			buildPhases = (
+				288403031F6ECB2900027A5A /* Sources */,
+				288403041F6ECB2900027A5A /* Frameworks */,
+				288403051F6ECB2900027A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Penn Labs Dining";
+			productName = "Penn Labs Dining";
+			productReference = 288403071F6ECB2900027A5A /* Penn Labs Dining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2884031F1F6ECB2A00027A5A /* Penn Labs DiningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288403371F6ECB2A00027A5A /* Build configuration list for PBXNativeTarget "Penn Labs DiningTests" */;
+			buildPhases = (
+				2884031C1F6ECB2A00027A5A /* Sources */,
+				2884031D1F6ECB2A00027A5A /* Frameworks */,
+				2884031E1F6ECB2A00027A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288403221F6ECB2A00027A5A /* PBXTargetDependency */,
+			);
+			name = "Penn Labs DiningTests";
+			productName = "Penn Labs DiningTests";
+			productReference = 288403201F6ECB2A00027A5A /* Penn Labs DiningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2884032A1F6ECB2A00027A5A /* Penn Labs DiningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2884033A1F6ECB2A00027A5A /* Build configuration list for PBXNativeTarget "Penn Labs DiningUITests" */;
+			buildPhases = (
+				288403271F6ECB2A00027A5A /* Sources */,
+				288403281F6ECB2A00027A5A /* Frameworks */,
+				288403291F6ECB2A00027A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2884032D1F6ECB2A00027A5A /* PBXTargetDependency */,
+			);
+			name = "Penn Labs DiningUITests";
+			productName = "Penn Labs DiningUITests";
+			productReference = 2884032B1F6ECB2A00027A5A /* Penn Labs DiningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		288402FF1F6ECB2900027A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Neil Shweky";
+				TargetAttributes = {
+					288403061F6ECB2900027A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DSY4TS4FA8;
+						ProvisioningStyle = Automatic;
+					};
+					2884031F1F6ECB2A00027A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DSY4TS4FA8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 288403061F6ECB2900027A5A;
+					};
+					2884032A1F6ECB2A00027A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DSY4TS4FA8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 288403061F6ECB2900027A5A;
+					};
+				};
+			};
+			buildConfigurationList = 288403021F6ECB2900027A5A /* Build configuration list for PBXProject "Penn Labs Dining" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 288402FE1F6ECB2900027A5A;
+			productRefGroup = 288403081F6ECB2900027A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288403061F6ECB2900027A5A /* Penn Labs Dining */,
+				2884031F1F6ECB2A00027A5A /* Penn Labs DiningTests */,
+				2884032A1F6ECB2A00027A5A /* Penn Labs DiningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288403051F6ECB2900027A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2884031A1F6ECB2900027A5A /* LaunchScreen.storyboard in Resources */,
+				288403651F6EDCEE00027A5A /* quad.jpg in Resources */,
+				288403611F6EDCEE00027A5A /* marks.png in Resources */,
+				288403171F6ECB2900027A5A /* Assets.xcassets in Resources */,
+				2884035A1F6EDCED00027A5A /* 1920Commons.png in Resources */,
+				288403621F6EDCEE00027A5A /* mcclelland.jpg in Resources */,
+				2884035E1F6EDCEE00027A5A /* hillel.jpg in Resources */,
+				2884035C1F6EDCEE00027A5A /* gourmetgrocer.jpg in Resources */,
+				288403151F6ECB2900027A5A /* Main.storyboard in Resources */,
+				288403671F6EDCEE00027A5A /* tortas.jpg in Resources */,
+				288403601F6EDCEE00027A5A /* kceh.jpg in Resources */,
+				2884035B1F6EDCEE00027A5A /* beefsteak.jpeg in Resources */,
+				2884035F1F6EDCEE00027A5A /* houston.jpg in Resources */,
+				288403641F6EDCEE00027A5A /* Penn.JoesCafe-Int5.72W.jpg in Resources */,
+				2884035D1F6EDCEE00027A5A /* Hill House.jpg in Resources */,
+				288403661F6EDCEE00027A5A /* starbucks.jpg in Resources */,
+				288403631F6EDCEE00027A5A /* nch.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2884031E1F6ECB2A00027A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288403291F6ECB2A00027A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288403031F6ECB2900027A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288403121F6ECB2900027A5A /* ViewController.m in Sources */,
+				288403451F6ECC4F00027A5A /* DiningArea.m in Sources */,
+				2884030F1F6ECB2900027A5A /* AppDelegate.m in Sources */,
+				2884034B1F6ECDD500027A5A /* DiningCell.m in Sources */,
+				2884030C1F6ECB2900027A5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2884031C1F6ECB2A00027A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288403251F6ECB2A00027A5A /* Penn_Labs_DiningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288403271F6ECB2A00027A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288403301F6ECB2A00027A5A /* Penn_Labs_DiningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		288403221F6ECB2A00027A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288403061F6ECB2900027A5A /* Penn Labs Dining */;
+			targetProxy = 288403211F6ECB2A00027A5A /* PBXContainerItemProxy */;
+		};
+		2884032D1F6ECB2A00027A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288403061F6ECB2900027A5A /* Penn Labs Dining */;
+			targetProxy = 2884032C1F6ECB2A00027A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		288403131F6ECB2900027A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288403141F6ECB2900027A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		288403181F6ECB2900027A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288403191F6ECB2900027A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		288403321F6ECB2A00027A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		288403331F6ECB2A00027A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288403351F6ECB2A00027A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSY4TS4FA8;
+				INFOPLIST_FILE = "Penn Labs Dining/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neil-Shweky.Penn-Labs-Dining";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		288403361F6ECB2A00027A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSY4TS4FA8;
+				INFOPLIST_FILE = "Penn Labs Dining/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neil-Shweky.Penn-Labs-Dining";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		288403381F6ECB2A00027A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DSY4TS4FA8;
+				INFOPLIST_FILE = "Penn Labs DiningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neil-Shweky.Penn-Labs-DiningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penn Labs Dining.app/Penn Labs Dining";
+			};
+			name = Debug;
+		};
+		288403391F6ECB2A00027A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DSY4TS4FA8;
+				INFOPLIST_FILE = "Penn Labs DiningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neil-Shweky.Penn-Labs-DiningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penn Labs Dining.app/Penn Labs Dining";
+			};
+			name = Release;
+		};
+		2884033B1F6ECB2A00027A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DSY4TS4FA8;
+				INFOPLIST_FILE = "Penn Labs DiningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neil-Shweky.Penn-Labs-DiningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Penn Labs Dining";
+			};
+			name = Debug;
+		};
+		2884033C1F6ECB2A00027A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DSY4TS4FA8;
+				INFOPLIST_FILE = "Penn Labs DiningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neil-Shweky.Penn-Labs-DiningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Penn Labs Dining";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288403021F6ECB2900027A5A /* Build configuration list for PBXProject "Penn Labs Dining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288403321F6ECB2A00027A5A /* Debug */,
+				288403331F6ECB2A00027A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288403341F6ECB2A00027A5A /* Build configuration list for PBXNativeTarget "Penn Labs Dining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288403351F6ECB2A00027A5A /* Debug */,
+				288403361F6ECB2A00027A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		288403371F6ECB2A00027A5A /* Build configuration list for PBXNativeTarget "Penn Labs DiningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288403381F6ECB2A00027A5A /* Debug */,
+				288403391F6ECB2A00027A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2884033A1F6ECB2A00027A5A /* Build configuration list for PBXNativeTarget "Penn Labs DiningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2884033B1F6ECB2A00027A5A /* Debug */,
+				2884033C1F6ECB2A00027A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 288402FF1F6ECB2900027A5A /* Project object */;
+}
